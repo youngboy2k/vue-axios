@@ -12,7 +12,7 @@ new Vue({
   beforeCreate() {
     console.log("beforeCreate!!!!!!!!!!!!!!!!!!!!!!!!!!!"+store.state.isLogin)
     this.$store.dispatch("getmemberInfo")
-    console.log("앗! 이럴수가!" + store.state.isLogin)
+    console.log("아싸라뿅" + store.state.isLogin)
   },
   render: h => h(App)
 }).$mount('#app')
