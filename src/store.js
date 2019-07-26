@@ -74,7 +74,7 @@ export default new Vuex.Store({
           console.log("getmemberInfo 종료")
         })
         .catch(() => {
-          alert('이메일과 비밀번호를 확인하세요.1')
+          alert('이메일과 비밀번호를 확인하세요.11111')
         })
       }
     },
